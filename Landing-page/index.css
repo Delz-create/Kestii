@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/baackground.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 100px;
+    height: 30px;
+    margin: 30px 30px;
+}
+.cont{
+    max-width: 650px;
+    margin: 80px 120px;
+}
+.cont .info h2{
+    color: aliceblue;
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.cont .info h2 span{
+    color: rgb(27, 27, 27);
+    display: flex;
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cont .info p{
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cont .info .promos{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 70px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+}
+.cont .info .promos b{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: rgb(39, 39, 39);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cont .info .btn{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background-color: #0c0a00;
+    border-radius: 8px;
+    margin-left: 30px;
+    transition: .5s;
+    margin-bottom: 50px;
+    transition: .4s;
+}
+.cont .info .btn:hover{
+    background-color: #1f1a01;
+}
+
+@media  screen and (max-width: 600px) {
+    img {
+        width: 6.5em;
+        height: 1.5em;
+        margin: 1.5em 1.5em;
+    }
+    .cont{
+        margin: 2.5em 1.2em;
+    }
+    .cont .info h2{
+        font-size: 2em;
+        margin-bottom: .5em;
+    }
+    .cont .info h2 span{
+        font-size: 2em;
+    }    
+    .cont .info p{
+        font-size: .8em;
+        margin-bottom: 1em;
+        width: 25em;
+    }
+    .cont .info .btn{
+        border-radius: .5em;
+        margin-bottom: 15px;
+    }
+    body{
+        width: 100vw;
+        min-height: 100vh;
+        background-image: url(images/baackground.JPG);
+        background-size: cover;
+        background-position: center;
+    }
+}
